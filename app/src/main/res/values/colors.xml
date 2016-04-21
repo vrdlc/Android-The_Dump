@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#929c28</color>
+    <color name="colorPrimaryDark">#565C18</color>
+    <color name="colorPrimaryLight">#cddc39</color>
+    <color name="colorTextIcons">#FFFFFF</color>
+    <color name="colorAccent">#519be2</color>
+    <color name="colorPrimaryText">#212121</color>
+    <color name="colorSecondaryText">#727272</color>
+    <color name="colorDivider">#b6b6b6</color>
+</resources>
+
+<!-- #cddc39 is our launch icon background color -->
