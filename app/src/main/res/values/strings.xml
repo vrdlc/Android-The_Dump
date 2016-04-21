@@ -7,4 +7,30 @@
         <item>Dinner</item>
         <item>Dessert</item>
     </string-array>
+
+    <string-array name="breakfast_array">
+        <item>Char sui - barbequed pork</item>
+        <item>Jaiozi - Choose vegetable or pork</item>
+        <item>Xiao long bao - Soup dumplings</item>
+        <item>Bacon and Eggs - Non-traditional but delicous!</item>
+    </string-array>
+
+    <string-array name="lunch_array">
+        <item>PB and J - You know, for the kids!</item>
+        <item>Bierock - Yeast dough dumpling filled with shredded beef, cabbage, and onions</item>
+        <item>Jiaozi - Choose vegetable or pork</item>
+        <item>Gnocci - potato dumplings filled with squash</item>
+    </string-array>
+
+    <string-array name="dinner_array">
+        <item>Verenika - cheese curd filled potato dumpling</item>
+        <item>Roast Beef steamed bun - like a good cheesesteak, only steamed! </item>
+        <item>Pierogis - choose spinach, mushroom, or mashed potatoes</item>
+    </string-array>
+
+    <string-array name="dessert_array">
+        <item>Chocolate Rangoon - melted chocolate inside a fried wonton</item>
+        <item>Bohne Beroggi - like a dessert pierogi, stuffed with sweet beans</item>
+        <item>Red Bean Dumplings - sweet red bean in rice dough</item>
+    </string-array>
 </resources>
