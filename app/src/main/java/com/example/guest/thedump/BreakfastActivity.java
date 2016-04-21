@@ -7,20 +7,20 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-public class BreakfastActivity extends AppCompatActivity {
-    private ListView mListView;
+import butterknife.Bind;
+import butterknife.ButterKnife;
 
+public class BreakfastActivity extends AppCompatActivity {
+    @Bind(R.id.breakfastListView) ListView mBreakfastListView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_breakfast);
+        ButterKnife.bind(this);
 
-        mListView = (ListView) findViewById(R.id.breakfastListView);
         ArrayAdapter adapter = ArrayAdapter.createFromResource(this, R.array.breakfast_array, android.R.layout.simple_list_item_1);
-        mListView.setAdapter(adapter);
-
-
+        mBreakfastListView.setAdapter(adapter);
             
     }
 }
