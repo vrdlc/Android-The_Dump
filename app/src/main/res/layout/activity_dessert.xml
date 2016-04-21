@@ -9,4 +9,22 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.guest.thedump.DessertActivity">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Dessert"
+        android:id="@+id/dessertTextView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dessertListView"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/dessertTextView"
+        android:layout_marginTop="10dp" />
+
+
 </RelativeLayout>
