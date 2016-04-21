@@ -24,6 +24,18 @@
         android:textColor="@color/colorPrimary"
         android:textIsSelectable="false"
         android:textSize="50dp"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView" />
+
+    <Spinner
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:id="@+id/menuSpinner"
+        android:background="@color/colorPrimary"
+        android:layout_alignWithParentIfMissing="false"
+        android:spinnerMode="dialog"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignStart="@+id/imageView" />
 
 </RelativeLayout>

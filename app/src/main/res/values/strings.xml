@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">TheDump</string>
+    <string-array name="menu_array">
+        <item>Select a Menu</item>
+        <item>Breakfast</item>
+        <item>Lunch</item>
+        <item>Dinner</item>
+        <item>Dessert</item>
+    </string-array>
 </resources>
